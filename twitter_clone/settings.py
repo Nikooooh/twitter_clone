@@ -86,8 +86,8 @@ DATABASES = {
         'NAME': 'twitter_clone_db',
         'USER': 'admin2024',
         'PASSWORD': 'Csgo19145*',
-        'HOST': 'localhost',
-        'PORT': '5432',
+        'HOST': '',  
+        'PORT': '',  
     }
 }
 
