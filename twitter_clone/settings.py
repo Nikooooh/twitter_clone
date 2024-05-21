@@ -82,12 +82,12 @@ WSGI_APPLICATION = 'twitter_clone.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'twitter_clone_db',
-        'USER': 'admin2024',
-        'PASSWORD': 'Csgo19145*',
-        'HOST': '',  
-        'PORT': '',  
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'twitter_clone_db', 
+        'USER': 'nicolastrevisan',  
+        'PASSWORD': 'Admin12345*',
+        'HOST': 'nicolastrevisan.mysql.pythonanywhere-services.com',        
+        'PORT': '',                  
     }
 }
 
